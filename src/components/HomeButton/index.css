@@ -1,0 +1,11 @@
+.HomeButton {
+  text-align: left;
+  /* text-shadow: 5px 5px black; */
+  font-size: 30px;
+  background-color: black;
+  color: white;
+
+  /* -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; */
+}

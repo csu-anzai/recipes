@@ -1,0 +1,36 @@
+.HomePage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  line-height: 40px;
+  margin: 25px;
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+#homepage-button-pole:hover {
+  background-color: green;
+}
+
+#homepage-button-vinyls:hover {
+  background-color: red;
+}
+
+#homepage-button-gigs:hover {
+  background-color: purple;
+}
+
+#homepage-button-recipes:hover {
+  background-color: orange;
+}

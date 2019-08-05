@@ -1,0 +1,26 @@
+table {
+  /* table-layout: fixed; */
+  border-collapse: collapse;
+  width: 95%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+tr:hover {
+  background-color: red;
+  color: white;
+}
