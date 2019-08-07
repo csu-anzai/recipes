@@ -67,12 +67,11 @@ export const recipes = [
       "100g icing sugar"
     ],
     method: [
+      "preheat oven to 150" + degreesCelcius,
       "mix butter, sugar, flour, eggs",
       "stir in lemon zest, juice of 1 lemon",
       "spoon mixture into non-stick loaf tin (ensure flat mixture flat)",
-      "bake on low temperature (150" +
-        degreesCelcius +
-        " for 50-60 mins (until skewer runs clean)",
+      "bake for 50-60 mins (until skewer runs clean)",
       "mix juice of remaining 2 lemons with icing sugar in Pyrex jug",
       "prod all over cake to create holes, leave to cool",
       "evenly coat drizzle topping"
@@ -94,13 +93,12 @@ export const recipes = [
       "75g icing sugar (4 tsp water)"
     ],
     method: [
+      "preheat oven to 150" + degreesCelcius,
       "mix butter, sugar",
       "fold in flour, baking powder",
       "mash bananas, add to mixture with eggs",
       "transfer mixture to non-stick loaf tin, create sunken centre so it rises to form flat top",
-      "bake on 150" +
-        degreesCelcius +
-        " for 50-60 mins (until skewer runs clean)",
+      "bake for 50-60 mins (until skewer runs clean)",
       "allow to cool",
       "drizzle over icing"
     ],
@@ -150,11 +148,12 @@ export const recipes = [
     toServe: ["icing (icing sugar and water)", "jelly beans"],
 
     method: [
+      "preheat oven to 180" + degreesCelcius,
       "mix wet ingredients together (no need to melt margarine)",
       "add dry ingredients and stir",
       "dust worktop with plain flour and roll mixture into slab",
       "use cutter to create people and transfer to non-stick baking tray",
-      "bake in oven at 180 " + degreesCelcius + " for 7-10 mins"
+      "bake for 7-10 mins"
     ],
     makes: "10 people plus some leftover blobs"
   },
@@ -214,7 +213,7 @@ export const recipes = [
       "transfer to a saucepan and cook on low heat for 20 minutes",
       "leave to cool",
       "massage the chicken with the sauce and leave to marinade for 6 hours",
-      "bake in covered casserole dish for 35 minutes (untl chicken reaches 75" +
+      "bake in covered casserole dish for 35 minutes (until chicken reaches 75" +
         degreesCelcius +
         ")",
       "serve with mashed potato and greens or rice and sweetcorn"
@@ -285,15 +284,15 @@ export const recipes = [
       "175g icing sugar"
     ],
     method: [
+      "preheat oven to 150" + degreesCelcius,
       "coarsely grate courgette and dry with clean tea towel",
       "blend avocado and sunflower oil",
       "zest 2 limes using fine grater setting",
       "mix courgette, avocado oil, sugar, lime zest, eggs and vanilla extract",
       "add baking powder and fold in flour",
-      "transfer mixture to non-stick loaf tin and bake at 150" +
-        degreesCelcius +
-        " for 50-60 minutes",
-      "remove from oven once skewer runs clean and cool for 20 minutes",
+      "transfer mixture to non-stick loaf tin",
+      "bake for 50-60 minutes (until skewer runs clean)",
+      "leave to cool for 20 minutes",
       "transfer from loaf tin to wire rack",
       "poke copious holes into loaf and drizzle over juice from the 2 naked limes",
       "mix icing sugar with enough juice from the remaining lime for it to become runny yet stiff",
@@ -501,11 +500,12 @@ export const recipes = [
       "50g dried cranberries"
     ],
     method: [
+      "preheat oven to 150" + degreesCelcius,
       "melt butter with golden syrup and sugar",
       "mix oats together with finely chopped fruit",
       "pour in the melted butter mix and stir thoroughly",
       "transfer to cover base of non-stick loaf tin",
-      "bake for 10-15 minutes at 180 " + degreesCelcius,
+      "bake for 15 minutes",
       "leave to cool before cutting into suitably-sized chunks"
     ],
     makes: "over 12 chunks"
@@ -591,10 +591,16 @@ export const recipes = [
     ],
     toServe: ["cream or custard"],
     method: [
-      "chop the watermelon and remove as many seeds as you can be bothered to",
-      "transfer to blender along with basil, nectar and the juice of 3 limes",
-      "blend until smooth",
-      "pour over a tumbler of ice"
+      "preheat oven to 170" + degreesCelcius,
+      // `preheat oven to 170$(degreesCelcius)`,
+      "mix flour, sugar",
+      "add diced butter, use fingertips to form light crumble, don't overwork",
+      "blind bake for 20 minutes",
+      "peel, core, chop apple into cubes",
+      "stew apple in water",
+      "once softened, add sugar, raspberries and blackberries, stir",
+      "transfer fruit compote to oven dish, top with half-baked crumble topping",
+      "bake for further 20 minutes"
     ],
     makes: "8 portions"
   }
