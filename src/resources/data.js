@@ -52,6 +52,8 @@ export const vinyls = [
   // sort by artist
 ].sort((a, b) => (a.artist > b.artist ? 1 : -1));
 
+const degreesCelcius = "\u00b0C";
+
 export const recipes = [
   {
     id: "lemon_drizzle",
@@ -68,7 +70,9 @@ export const recipes = [
       "mix butter, sugar, flour, eggs",
       "stir in lemon zest, juice of 1 lemon",
       "spoon mixture into non-stick loaf tin (ensure flat mixture flat)",
-      "bake on low temperature (150\u00b0C) for 50-60 mins (until skewer runs clean)",
+      "bake on low temperature (150" +
+        degreesCelcius +
+        " for 50-60 mins (until skewer runs clean)",
       "mix juice of remaining 2 lemons with icing sugar in Pyrex jug",
       "prod all over cake to create holes, leave to cool",
       "evenly coat drizzle topping"
@@ -94,7 +98,9 @@ export const recipes = [
       "fold in flour, baking powder",
       "mash bananas, add to mixture with eggs",
       "transfer mixture to non-stick loaf tin, create sunken centre so it rises to form flat top",
-      "bake on 150\u00b0C for 50-60 mins (until skewer runs clean)",
+      "bake on 150" +
+        degreesCelcius +
+        " for 50-60 mins (until skewer runs clean)",
       "allow to cool",
       "drizzle over icing"
     ],
@@ -148,7 +154,7 @@ export const recipes = [
       "add dry ingredients and stir",
       "dust worktop with plain flour and roll mixture into slab",
       "use cutter to create people and transfer to non-stick baking tray",
-      "bake in oven at 180\u00b0C for 7-10 mins"
+      "bake in oven at 180 " + degreesCelcius + " for 7-10 mins"
     ],
     makes: "10 people plus some leftover blobs"
   },
@@ -208,7 +214,9 @@ export const recipes = [
       "transfer to a saucepan and cook on low heat for 20 minutes",
       "leave to cool",
       "massage the chicken with the sauce and leave to marinade for 6 hours",
-      "bake in covered casserole dish for 35 minutes (untl chicken reaches 75\u00b0C)",
+      "bake in covered casserole dish for 35 minutes (untl chicken reaches 75" +
+        degreesCelcius +
+        ")",
       "serve with mashed potato and greens or rice and sweetcorn"
     ],
     makes: "5 portions"
@@ -282,7 +290,9 @@ export const recipes = [
       "zest 2 limes using fine grater setting",
       "mix courgette, avocado oil, sugar, lime zest, eggs and vanilla extract",
       "add baking powder and fold in flour",
-      "transfer mixture to non-stick loaf tin and bake at 150\u00b0C for 50-60 minutes",
+      "transfer mixture to non-stick loaf tin and bake at 150" +
+        degreesCelcius +
+        " for 50-60 minutes",
       "remove from oven once skewer runs clean and cool for 20 minutes",
       "transfer from loaf tin to wire rack",
       "poke copious holes into loaf and drizzle over juice from the 2 naked limes",
@@ -495,7 +505,7 @@ export const recipes = [
       "mix oats together with finely chopped fruit",
       "pour in the melted butter mix and stir thoroughly",
       "transfer to cover base of non-stick loaf tin",
-      "bake for 10-15 minutes at 180\u00b0C",
+      "bake for 10-15 minutes at 180 " + degreesCelcius,
       "leave to cool before cutting into suitably-sized chunks"
     ],
     makes: "over 12 chunks"
@@ -564,51 +574,29 @@ export const recipes = [
       "pour over a tumbler of ice"
     ],
     makes: "700ml"
+  },
+  {
+    id: "crumble",
+    title: "crumble",
+    ingredients: [
+      "300g plain flour",
+      "150g golden caster sugar",
+      "150g unsalted butter (softened)",
+      "700g diced Bramley apple (approx. 7 small)",
+      "350ml water",
+      "100g demerera sugar",
+      "350g bag frozen raspberries",
+      "150g punnet fresh blackberries",
+      "1 tbsp ground cinnamon"
+    ],
+    toServe: ["cream or custard"],
+    method: [
+      "chop the watermelon and remove as many seeds as you can be bothered to",
+      "transfer to blender along with basil, nectar and the juice of 3 limes",
+      "blend until smooth",
+      "pour over a tumbler of ice"
+    ],
+    makes: "8 portions"
   }
   // sort by recipe title
 ].sort((a, b) => (a.title > b.title ? 1 : -1));
-
-// NOT USED
-const lemonRaspberry = {
-  title: "lemon raspberry cake",
-  ingredients: [
-    "365g butter (225g for sponge, 140g for frosting)",
-    "300g granulated sugar",
-    "55g brown sugar",
-    "2 tbsp lemon zest (1 for sponge, 1 for frosting)",
-    "125ml freshly squeezed lemon juice (for sponge) + 1 tbsp (for frosting)",
-    "0.75 tsp lemon extract (0.5 for sponge, 0.25 for frosting)",
-    "4 large eggs",
-    "255g plain flour (+ 2 tbsp to cover raspberries with)",
-    "55g cornflour",
-    "1 tsp vanilla extract",
-    "1.5 tsp baking powder",
-    "0.5 tsp baking soda",
-    "0.5 tsp salt",
-    "125ml milk",
-    "125g sour cream (+ 2 tbsp for frosting)",
-    "300g frozen raspberries (for sponge)",
-    "225g cream cheese",
-    "500g icing sugar",
-    "165g raspberry jam"
-  ],
-  toServe: ["fresh raspberries", "sliced lemon"],
-  method: [
-    "pre-heat oven to 170 degrees",
-    "mix butter, granulated/brown sugar, lemon zest, vanilla/lemon extracts",
-    "add eggs one at a time",
-    "separately, mix remaining dry ingredients",
-    "combine wet and dry mixtures and whisk",
-    "finally fold in milk, sour cream, lemon juice",
-    "toss frozen raspberries in flour, then fold into cake mixture",
-    "divide batter across 2 tins and bake for 35-40 minutes",
-    "leave for 10 minutes before removing from tins to cool",
-    "whisk cream cheese and butter on medium for 3 minutes",
-    "reduce to low speed whilst adding icing sugar, lemon zest and juice",
-    "whisk for 2 minutes, add sour cream, whisk for 2 more",
-    "only when the cakes have completely cooled, cover one with frosting jam",
-    "place the other sponge on top and refrigerate for 20 minutes",
-    "finish frosting the cake and refrigerate for final 20 minutes",
-    "garnish as you desire"
-  ]
-};

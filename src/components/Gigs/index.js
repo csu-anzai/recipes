@@ -9,6 +9,6 @@ const Gigs = () => {
       <h2>coming soon</h2>
     </>
   );
-}
+};
 
 export default Gigs;
