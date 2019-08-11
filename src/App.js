@@ -1,20 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Recipes from "./components/Recipes";
-import Pole from "./components/Pole";
-import Vinyls from "./components/Vinyls";
-import Gigs from "./components/Gigs";
-import HomePage from "./components/HomePage";
+import RecipesPage from "./components/recipes/RecipesPage";
+import PolePage from "./components/pole/PolePage";
+import VinylsPage from "./components/vinyls/VinylsPage";
+import GigsPage from "./components/gigs/GigsPage";
+import HomePage from "./components/home/HomePage";
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/recipes" component={Recipes} />
-        <Route path="/pole" component={Pole} />
-        <Route path="/vinyls" component={Vinyls} />
-        <Route path="/gigs" component={Gigs} />
+        <Route path="/recipes" component={RecipesPage} />
+        <Route path="/pole" component={PolePage} />
+        <Route path="/vinyls" component={VinylsPage} />
+        <Route path="/gigs" component={GigsPage} />
         <Route component={HomePage} />
       </Switch>
     </Router>

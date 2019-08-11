@@ -603,6 +603,38 @@ export const recipes = [
       "bake for further 20 minutes"
     ],
     makes: "8 portions"
+  },
+  {
+    id: "jambalaya",
+    title: "jambalaya",
+    ingredients: [
+      "1 white onion",
+      "125g bunch spring onion (topped, tailed)",
+      "5 garlic cloves (crushed)",
+      "2 peppers (yellow, orange or red)",
+      "1 fresh chilli (red or green)",
+      "225g chorizo ring",
+      "800g chopped tomatoes",
+      "400ml stock (chicken or veg)",
+      "1 tbsp cajun seasoning",
+      "1 tbsp smoked paprika",
+      "1 tbsp mixed herbs",
+      "1 tbsp dried oregano",
+      "1 tsp ground black pepper",
+      "1 tsp salt",
+      "400g long grain rice",
+      "400g can kidney beans (drained)"
+    ],
+    toServe: ["feta", "rocket"],
+    method: [
+      "remove chorizo skin, cut into edible chunks",
+      "trasnfer all ingredients to slow cooker apart from rice, kidney beans",
+      "cook on low for 3-4 hours",
+      "add rice, kidney beans",
+      "cook on high for 20 minutes",
+      "stir, cook for final 20 minutes"
+    ],
+    makes: "6 portions"
   }
   // sort by recipe title
 ].sort((a, b) => (a.title > b.title ? 1 : -1));

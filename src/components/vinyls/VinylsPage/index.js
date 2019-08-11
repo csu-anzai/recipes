@@ -2,25 +2,25 @@ import React, { Component } from "react";
 
 import Vinyl from "../Vinyl";
 import VinylForm from "../VinylForm";
-import HomeButton from "../HomeButton";
+import HomeButton from "../../common/HomeButton";
 
-import { vinyls } from '../../resources/data.js';
-import './index.css';
+import { vinyls } from "../../../resources/data.js";
+import "./index.css";
 
 class Vinyls extends Component {
   state = {
     vinyls
-  }
+  };
 
   addToVinylCollection = (artist, album, year) => {
     this.setState(previousState => ({
-      vinyls: [...previousState.vinyls, {artist, album, year}]
+      vinyls: [...previousState.vinyls, { artist, album, year }]
     }));
 
     // N.B.: IT WOULD BE NICE FOR THE STATE TO AUTOMATICALLY SORT ITSELF AGAIN
     // SCRAMBLINGS BELOW
 
-     // .sort will mutate the original array, which we cannot do with React
+    // .sort will mutate the original array, which we cannot do with React
     // console.log(this.state);
 
     // const sortedVinyls = [].concat(this.state.vinyls);
@@ -34,20 +34,20 @@ class Vinyls extends Component {
     //   vinyls: [...previousState.vinyls].sort((a,b) => a.artist > b.artist ? 1 : -1)
     // }));
 
-//     const nuState = [{
-//       artist: 'C',
-//       album: 'c',
-//       year: 3
-//     },{
-//     artist: 'B',
-//     album: 'b',
-//     year: 2
-//   },
-// {
-//   artist: 'A',
-//   album: 'a',
-//   year: 1
-// }];
+    //     const nuState = [{
+    //       artist: 'C',
+    //       album: 'c',
+    //       year: 3
+    //     },{
+    //     artist: 'B',
+    //     album: 'b',
+    //     year: 2
+    //   },
+    // {
+    //   artist: 'A',
+    //   album: 'a',
+    //   year: 1
+    // }];
 
     // this.setState(() => ({
     //   vinyls: [{artist, album, year}]
@@ -62,7 +62,7 @@ class Vinyls extends Component {
     // this.setState(() => (
     //   {vinyls: newlySortedState
     // }));
-  }
+  };
 
   render() {
     return (
@@ -71,7 +71,8 @@ class Vinyls extends Component {
         <h2>vinyls</h2>
         <p>below is a record (pun intended) of my expanding vinyl collection</p>
 
-        <VinylForm onSubmit={this.addToVinylCollection}/><br></br>
+        <VinylForm onSubmit={this.addToVinylCollection} />
+        <br />
 
         <table>
           <thead>
@@ -84,7 +85,15 @@ class Vinyls extends Component {
 
           <tbody>
             {this.state.vinyls.map((value, index) => {
-              return (<Vinyl key={index} artist={value.artist} album={value.album} year={value.year}/>)})}
+              return (
+                <Vinyl
+                  key={index}
+                  artist={value.artist}
+                  album={value.album}
+                  year={value.year}
+                />
+              );
+            })}
           </tbody>
         </table>
       </>

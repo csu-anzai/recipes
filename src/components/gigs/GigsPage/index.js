@@ -1,6 +1,6 @@
 import React from "react";
 
-import HomeButton from "../HomeButton";
+import HomeButton from "../../common/HomeButton";
 
 const Gigs = () => {
   return (

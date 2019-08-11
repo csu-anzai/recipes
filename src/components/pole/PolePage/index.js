@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { Player, BigPlayButton, LoadingSpinner } from "video-react";
 
-import cruel_youth_devil_in_paradise from "../../resources/videos/cruel_youth_devil_in_paradise.mp4";
-import ludovico_einaudi_i_giorni from "../../resources/videos/ludovico_einaudi_i_giorni.mp4";
-import annie_lennox_i_put_a_spell_on_you from "../../resources/videos/annie_lennox_i_put_a_spell_on_you.mp4";
-import her_focus from "../../resources/videos/her_focus.mp4";
-import sereda_i_got_you from "../../resources/videos/sereda_i_got_you.mp4";
-import jp_cooper_birthday from "../../resources/videos/jp_cooper_birthday.mp4";
+import cruel_youth_devil_in_paradise from "../../../resources/videos/cruel_youth_devil_in_paradise.mp4";
+import ludovico_einaudi_i_giorni from "../../../resources/videos/ludovico_einaudi_i_giorni.mp4";
+import annie_lennox_i_put_a_spell_on_you from "../../../resources/videos/annie_lennox_i_put_a_spell_on_you.mp4";
+import her_focus from "../../../resources/videos/her_focus.mp4";
+import sereda_i_got_you from "../../../resources/videos/sereda_i_got_you.mp4";
+import jp_cooper_birthday from "../../../resources/videos/jp_cooper_birthday.mp4";
 
-import HomeButton from "../HomeButton";
+import HomeButton from "../../common/HomeButton";
 
-import "../../../node_modules/video-react/dist/video-react.css";
+import "../../../../node_modules/video-react/dist/video-react.css";
 // @import "~video-react/styles/scss/video-react";
 
 import "./index.css";
