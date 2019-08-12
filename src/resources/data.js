@@ -492,8 +492,8 @@ export const recipes = [
     title: "flapjacks",
     ingredients: [
       "150g butter",
-      "5 tbsp golden syrup",
-      "100g brown sugar (light or dark)",
+      "100g golden syrup",
+      "50g brown sugar (light or dark)",
       "250g oats",
       "50g dried apricots",
       "50g dried blueberries",
