@@ -634,7 +634,8 @@ export const recipes = [
       "cook on high for 20 minutes",
       "stir, cook for final 20 minutes"
     ],
-    makes: "6 portions"
+    makes: "6 portions",
+    hide: true
   }
   // sort by recipe title
 ].sort((a, b) => (a.title > b.title ? 1 : -1));

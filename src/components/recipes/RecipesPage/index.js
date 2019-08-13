@@ -16,7 +16,7 @@ const Recipes = () => {
 
       <div id="recipesFlexContainer">
         {recipes.map((value, index) => {
-          return (
+          return !value.hide ? (
             <Recipe
               key={index}
               title={value.title}
@@ -26,7 +26,7 @@ const Recipes = () => {
               method={value.method}
               toServe={value.toServe}
             />
-          );
+          ) : null;
         })}
       </div>
     </div>
