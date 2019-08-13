@@ -310,7 +310,7 @@ export const recipes = [
       "1 heaped tbsp natural yoghurt",
       "125ml apple juice",
       "1 tbsp fresh lime juice",
-      "handful fresh or frozen fruit (berries and grapes or mango and pineapple)"
+      "handful frozen fruit (berries, grapes, mango, pineapple)"
     ],
     method: ["add all ingredients to blender", "blend until smooth"],
     makes: "350ml"
