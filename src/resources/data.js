@@ -638,6 +638,7 @@ export const recipes = [
     hide: true
   },
   {
+    id: "quiche",
     title: "quiche",
     ingredients: [
       "375g shortcrust pastry (or enough to line quiche tin)",
@@ -671,10 +672,27 @@ export const recipes = [
       "blanch petit pois, asparagus (boil for 3 minutes then cool rapidly)",
       "combine all cooled ingredients to form filling",
       "pour filling all over pastry",
-      "bake for 45-60 minutes at 180 " +
+      "bake for 45 minutes at 180" +
         degreesCelcius +
-        " (until filling is set)"
+        " (or until filling is set)"
     ]
+  },
+  {
+    id: "porridge",
+    title: "porridge",
+    ingredients: [
+      "50g oats",
+      "200ml milk (+ extra dash at end)",
+      "1 tsp granulated sugar",
+      "1 tsp ground cinnamon",
+      "100g frozen fruit (raspberries, blueberries, pomegranate seeds)"
+    ],
+    method: [
+      "transfer all ingredients to heating device of choice",
+      "heat, stir until thick and creamy (approx. 2:30 if using microwave with 1 break to stir)",
+      "stir in final dash of milk to prevent drying out"
+    ],
+    makes: "1 portion"
   }
   // sort by recipe title
 ].sort((a, b) => (a.title > b.title ? 1 : -1));

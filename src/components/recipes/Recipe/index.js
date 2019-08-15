@@ -15,6 +15,7 @@ const Recipe = props => {
       onClick={() => switchClickStatus(!clicked)}
     >
       <span className="recipeTitle">{props.title}</span>
+      <RecipeImage id={props.id} />
       <div className="recipeDetail">
         {clicked ? (
           <>
@@ -24,7 +25,6 @@ const Recipe = props => {
           </>
         ) : null}
       </div>
-      <RecipeImage id={props.id} />
     </div>
   );
 };
