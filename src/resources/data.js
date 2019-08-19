@@ -53,6 +53,7 @@ export const vinyls = [
 ].sort((a, b) => (a.artist > b.artist ? 1 : -1));
 
 const degreesCelcius = "\u00b0C";
+const puree = "pur\u00e9e";
 
 export const recipes = [
   {
@@ -105,12 +106,13 @@ export const recipes = [
     makes: "10 slices"
   },
   {
+    id: "ratatouille",
     title: "ratatouille",
     ingredients: [
       "3 medium onions",
       "5 garlic cloves",
       "1 pack baby chestnut mushrooms",
-      "140g can tomato pur\u00e9e",
+      "140g can tomato " + puree,
       "3 mixed peppers",
       "1 fresh red chilli",
       "2 courgettes",
@@ -123,7 +125,7 @@ export const recipes = [
     ],
     method: [
       "fry sliced onions, garlic and mushrooms",
-      "shower with herbs and tomato pur\u00e9e",
+      "shower with herbs and tomato " + puree,
       "add sliced peppers and finely chopped chilli",
       "add sliced courgettes and aubergine",
       "add water to prevent from drying out",
@@ -166,8 +168,8 @@ export const recipes = [
       "2 white onions",
       "250g chestnut mushrooms",
       "5 garlic cloves",
-      "500g lean beef mince",
-      "2 tbsp tomato pur\u00e9e",
+      "500g beef mince (5% fat)",
+      "2 tbsp tomato " + puree,
       "20g fresh basil",
       "5 sprigs fresh rosemary",
       "1 tbsp dried oregano",
@@ -183,7 +185,7 @@ export const recipes = [
       "blend fresh herbs with passata and stock cube",
       "fry diced celery, carrot, onion, crushed garlic",
       "add mince, mushrooms",
-      "add tomato pur\u00e9e, wine, dried herbs",
+      "add tomato " + puree + ", wine, dried herbs",
       "once brown, add passata mix, chopped tomatoes",
       "reduce heat and cover for over an hour"
     ],
@@ -247,7 +249,7 @@ export const recipes = [
       "begin adding stock, monitor",
       "keep stirring, add more stock",
       "add beans when you like depending on desired crunch",
-      "add peas towards end",
+      "add petit pois towards end",
       "remove from heat, stir in thinly-sliced prosciutto"
     ],
     makes: "7 portions"
@@ -327,7 +329,7 @@ export const recipes = [
       "250g chestnut mushrooms",
       "250g spinach",
       "1 tbsp dried thyme",
-      "1 tbsp mixed herbs",
+      "1 tbsp dried mixed herbs",
       "1 tsp ground black pepper",
       "4 eggs",
       "100g parmesan",
@@ -355,11 +357,11 @@ export const recipes = [
       "7 garlic cloves",
       "1 or 2 fresh mixed chillis (red or green)",
       "5 sprigs fresh rosemary (no stalk)",
-      "1 tbsp mixed herbs",
+      "1 tbsp dried mixed herbs",
       "1 tsp crushed chillis",
       "1 tsp table salt",
       "1 tsp ground black pepper",
-      "1 tbsp tomato pur\u00e9e",
+      "1 tbsp tomato " + puree,
       "1kg IKEA frozen meatballs",
       "400g can chopped tomatoes",
       "500g carton passata",
@@ -371,7 +373,9 @@ export const recipes = [
     ],
     method: [
       "fry diced onion, carrot, celery",
-      "add crushed garlic, fresh chillis, tomato pur\u00e9e, fresh/dried herbs, salt, pepper",
+      "add crushed garlic, fresh chillis, tomato " +
+        puree +
+        ", fresh/dried herbs, salt, pepper",
       "place meatballs in slow cooker",
       "add frying pan contents to meatballs, stir",
       "add chopped tomatoes, stir",
@@ -395,10 +399,11 @@ export const recipes = [
     ],
     toServe: ["1 punnet fresh raspberries"],
     method: [
+      "preheat oven to 160" + degreesCelcius,
       "crush biscuits with food processor (bit by bit)",
       "melt butter and add crushed biscuits",
       "press biscuit mix into base of 20cm non-stick cake tin",
-      "bake for 10 minutes at 160 degrees, then leave to cool",
+      "bake for 10 minutes, then leave to cool",
       "whisk 3 egg yolks",
       "add condensed milk and electric whisk for 3 minutes",
       "add juice of 6 limes and zest of 5, electric whisk for 3 minutes",
@@ -467,14 +472,14 @@ export const recipes = [
       "50g jalape\u00f1os (drained weight)",
       "2 sweet red pointed peppers",
       "1 tbsp dried oregano",
-      "1 tbsp mixed herbs",
+      "1 tbsp dried mixed herbs",
       "1 tsp salt",
       "1 tsp ground black pepper",
       "3 garlic cloves",
       "fresh thyme",
       "75g golden breadcrumbs"
     ],
-    toServe: ["samphire"],
+    // toServe: ["samphire"],
     method: [
       "boil pasta for 3 minutes, add cauliflower for 7 minutes",
       "drain, reserving 150ml cooking water",
@@ -514,7 +519,7 @@ export const recipes = [
     id: "lasagne",
     title: "lasagne",
     ingredients: [
-      "500g lean beef mince",
+      "500g beef mince (5% fat)",
       "2 small white onions",
       "5 garlic cloves",
       "2 red peppers",
@@ -526,7 +531,7 @@ export const recipes = [
       "25g bag fresh basil",
       "25g bag fresh parsley",
       "2x 400g can chopped tomatoes (2 regular cans)",
-      "140g can tomato pur\u00e9e",
+      "140g can tomato " + puree,
       "100ml chicken stock (1 cube)",
       "10 lasagne sheets",
       "500g ricotta cheese",
@@ -544,9 +549,9 @@ export const recipes = [
     ],
     method: [
       "fry meat with diced onions, red pepper and garlic until brown",
-      "add tomato pur\u00e9e and dried herbs",
+      "add dried herbs, tomato " + puree,
       "blend fresh herbs and add",
-      "add chopped tomatoes, tomato pur\u00e9e and chicken stock",
+      "add tomato " + puree + ", chopped tomatoes, chicken stock",
       "reduce heat and simmer for 2 hours, stirring intermittently",
       "soak lasagne sheets in water for 30 minutes",
       "mix ricotta with eggs, milk, grated mozzarella, nutmeg, salt and pepper",
@@ -592,7 +597,6 @@ export const recipes = [
     toServe: ["cream or custard"],
     method: [
       "preheat oven to 170" + degreesCelcius,
-      // `preheat oven to 170$(degreesCelcius)`,
       "mix flour, sugar",
       "add diced butter, use fingertips to form light crumble, don't overwork",
       "blind bake for 20 minutes",
@@ -618,7 +622,7 @@ export const recipes = [
       "400ml stock (chicken or veg)",
       "1 tbsp cajun seasoning",
       "1 tbsp smoked paprika",
-      "1 tbsp mixed herbs",
+      "1 tbsp dried mixed herbs",
       "1 tbsp dried oregano",
       "1 tsp ground black pepper",
       "1 tsp salt",
@@ -652,13 +656,14 @@ export const recipes = [
       "200ml crème fraîche",
       "4 large beaten eggs (1 for glaze, rest for filling)",
       "1 tbsp fresh dill (no stalk)",
-      "1 tbsp mixed herbs",
+      "1 tbsp dried mixed herbs",
       "1 tsp salt",
       "1 tsp ground black pepper",
       "0.5 lemon (zest + juice)",
       "50g mature cheddar (finely grated)"
     ],
     method: [
+      "preheat oven to 180" + degreesCelcius,
       "roll out pastry into shape that will cover quiche tin",
       "carefully place pastry over tin, ensuring all sides covered",
       "gently press pastry into sides of tin (use ball of floured pastry)",
@@ -672,9 +677,7 @@ export const recipes = [
       "blanch petit pois, asparagus (boil for 3 minutes then cool rapidly)",
       "combine all cooled ingredients to form filling",
       "pour filling all over pastry",
-      "bake for 45 minutes at 180" +
-        degreesCelcius +
-        " (or until filling is set)"
+      "bake for 45 minutes (or until filling is set)"
     ]
   },
   {
@@ -693,6 +696,50 @@ export const recipes = [
       "stir in final dash of milk to prevent drying out"
     ],
     makes: "1 portion"
+  },
+  {
+    id: "cumberland_pie",
+    title: "cumberland pie",
+    ingredients: [
+      "2 white onions",
+      "1 swede (approx. 500g)",
+      "3 carrots (approx. 450g)",
+      "5 garlic cloves",
+      "500g lamb or beef mince (10% or 5% fat)",
+      "4 sprigs fresh rosemary",
+      "1 tbsp dried thyme",
+      "1 tsp salt",
+      "1 tsp ground black pepper",
+      "3 tbsp Worcester sauce",
+      "2 tbsp tomato " + puree,
+      "1 tbsp mint sauce (optional)",
+      "500ml chicken stock (1 cube)",
+      "2 tbsp plain flour",
+      "250g petit pois",
+      "1.25kg Maris Piper potatoes (weight after peeling, before boiling)",
+      "100g butter",
+      "150ml milk",
+      "100g mature cheddar (finely grated)",
+      "50g golden breadcrumbs",
+      "1 tsp dried mixed herbs"
+    ],
+    method: [
+      "fry diced onion, carrot, swede, garlic",
+      "add mince once veg softens",
+      "season with fresh/dried herbs, salt, pepper",
+      "add Worcester sauce, tomato " + puree + " (+ mint sauce)",
+      "let mince brown, then add stock, flour",
+      "reduce heat and cover for 1-2 hours or transfer to slow cooker and cook on low for 3-4 hours",
+      "peel, boil potatoes",
+      "preheat oven to 180" + degreesCelcius,
+      "mash potatoes",
+      "loosen/season potato with milk, butter, salt, pepper",
+      "mix cheese, breadcrumbs, mixed herbs topping",
+      "stir petit pois into mince filling",
+      "spoon mince filling into oven dish, cover with potato and topping",
+      "bake for 50 minutes"
+    ],
+    makes: "8 portions"
   }
   // sort by recipe title
 ].sort((a, b) => (a.title > b.title ? 1 : -1));
