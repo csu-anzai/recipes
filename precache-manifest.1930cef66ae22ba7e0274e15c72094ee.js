@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b23d492e4eb85be0d0acbd81a22ac3e",
+    "revision": "f2df99418e01556ded27286448d761f4",
     "url": "/website/index.html"
   },
   {
-    "revision": "04a87b003fe5f22c5bd4",
+    "revision": "97ec7c1dc567dfee140d",
     "url": "/website/static/css/2.14686bf5.chunk.css"
   },
   {
-    "revision": "ee28355178b6077f73c5",
-    "url": "/website/static/css/main.704812e1.chunk.css"
+    "revision": "64c79aee0bf2b14e97d7",
+    "url": "/website/static/css/main.fae6a09b.chunk.css"
   },
   {
-    "revision": "04a87b003fe5f22c5bd4",
-    "url": "/website/static/js/2.6117b938.chunk.js"
+    "revision": "97ec7c1dc567dfee140d",
+    "url": "/website/static/js/2.806b84cd.chunk.js"
   },
   {
-    "revision": "ee28355178b6077f73c5",
-    "url": "/website/static/js/main.17c42b7e.chunk.js"
+    "revision": "64c79aee0bf2b14e97d7",
+    "url": "/website/static/js/main.cd2634df.chunk.js"
   },
   {
     "revision": "d15da1c5dbbceb93f3a7",
@@ -56,12 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/cruel_youth_devil_in_paradise.f20b6453.mp4"
   },
   {
-    "revision": "e35daed012ddf369ff55ee337638b6e8",
-    "url": "/website/static/media/crumble.e35daed0.jpg"
+    "revision": "21725127c424ddd227b11bcb5aa6b4cc",
+    "url": "/website/static/media/crumble.21725127.jpg"
   },
   {
-    "revision": "21725127c424ddd227b11bcb5aa6b4cc",
-    "url": "/website/static/media/crumble_alt.21725127.jpg"
+    "revision": "e35daed012ddf369ff55ee337638b6e8",
+    "url": "/website/static/media/crumble_alt.e35daed0.jpg"
+  },
+  {
+    "revision": "5a9e0d4cddc47541c317f7a722dc82d6",
+    "url": "/website/static/media/cumberland_pie.5a9e0d4c.jpg"
   },
   {
     "revision": "b30a2f7005e0496422385a801ac0f256",
@@ -122,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7d1384bca73c61a80fccd0228483b344",
     "url": "/website/static/media/quiche.7d1384bc.jpg"
+  },
+  {
+    "revision": "37c08b062513e9f654ce470b742181ab",
+    "url": "/website/static/media/ratatouille.37c08b06.jpg"
   },
   {
     "revision": "9e9b286d0c3beaa3901569523e78d9ce",
