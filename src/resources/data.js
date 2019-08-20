@@ -740,6 +740,50 @@ export const recipes = [
       "bake for 50 minutes"
     ],
     makes: "8 portions"
+  },
+  {
+    title: "sweet and sour chicken",
+    ingredients: [
+      "350g jasmine rice",
+      "300ml pineapple juice (2 tbsp for slurry, rest for sauce base)",
+      "2 tbsp rice vinegar or white wine vinegar",
+      "2 or 3 tbsp ketchup",
+      "2 or 3 tbsp light brown sugar",
+      "3 or 4 tbsp soy sauce (light or dark) (1 or 2 for sauce, 2 for egg fried rice)",
+      "1 tsp dried crushed chillis",
+      "75g cornflour (1 tbsp for slurry, 65g for chicken coating)",
+      "2 chicken breasts",
+      "1 tsp salt",
+      "1 tbsp veg oil (for chicken coating, more required for rice, stir-fry)",
+      "5 eggs (1 for chicken coating, 4 for egg fried rice)",
+      "1 onion",
+      "2 peppers (1 red, 1 green)",
+      "3 garlic cloves",
+      "25g fresh ginger (peeled, grated)",
+      "1 bunch spring onions",
+      "0.5 small pineapple"
+      // "1 carrot (optional)",
+    ],
+    toServe: ["cucumber sticks"],
+    method: [
+      "cook rice as per pack instructions",
+      "drain rice, rinse in cold water, chill until cold",
+      "marinade diced chicken in oil, salt for 20 minutes",
+      "make slurry from cornflour, pineapple juice",
+      "bring vinegar, ketchup, soy, sugar, crushed chillis, pineapple juice to boil",
+      "remove sauce from heat, leave to cool",
+      "add beaten egg to marinaded chicken, stir",
+      "add cornflour to chicken, stir until unevenly coated",
+      "fry coated chicken on high heat for 5-6 minutes, flipping half way through",
+      "set chicken aside",
+      "fry onions, peppers, garlic, ginger",
+      "(once veg softened) add chicken, pineapple, simmer for 5 minutes",
+      "elsewhere, fry/swirl whisked eggs for 1-2 minutes",
+      "add cold rice to eggs, stir-fry for 2 minutes",
+      "add soy sauce to rice, stir-fry for 2 final minutes, set aside",
+      "add cornflour slurry to chicken wok, cook for 1 minute until thick, glossy"
+    ],
+    makes: "4 portions"
   }
   // sort by recipe title
 ].sort((a, b) => (a.title > b.title ? 1 : -1));
