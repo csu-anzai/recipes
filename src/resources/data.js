@@ -764,7 +764,7 @@ export const recipes = [
       "0.5 small pineapple"
       // "1 carrot (optional)",
     ],
-    toServe: ["cucumber sticks"],
+    toServe: ["cucumber sticks", "rice crackers"],
     method: [
       "cook rice as per pack instructions",
       "drain rice, rinse in cold water, chill until cold",
