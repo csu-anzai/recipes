@@ -93,11 +93,13 @@ export const recipes = [
       "1 tsp freshly ground nutmeg",
       "75g icing sugar (4 tsp water)"
     ],
+    toServe: ["banana chips"],
     method: [
       "preheat oven to 150" + degreesCelcius,
-      "mix butter, sugar",
-      "fold in flour, baking powder",
-      "mash bananas, add to mixture with eggs",
+      "cream butter, sugar",
+      "fold in beaten eggs, flour, baking powder",
+      "mash bananas, add to mixture",
+      "stir in cinnamon, nutmeg",
       "transfer mixture to non-stick loaf tin, create sunken centre so it rises to form flat top",
       "bake for 50-60 mins (until skewer runs clean)",
       "allow to cool",
@@ -117,11 +119,13 @@ export const recipes = [
       "1 fresh red chilli",
       "2 courgettes",
       "1 aubergine",
-      "4 tbsp dried herbs (mixed herbs, oregano, thyme, rosemary)",
-      "1 tbsp salt",
+      "1 tbsp dried thyme",
+      "1 tbsp dried basil",
+      "1 tbsp dried oregano",
+      "1 tbsp dried rosemary",
+      "1 tsp salt",
       "1 tsp ground black pepper",
-      "400g can chopped tomatoes",
-      "500g carton passata"
+      "800g (2 cans) chopped tomatoes"
     ],
     method: [
       "fry sliced onions, garlic and mushrooms",
@@ -180,7 +184,11 @@ export const recipes = [
       "500g passata",
       "1 stock cube (beef or veg)"
     ],
-    toServe: ["pasta or rice", "parmesan", "tenderstem"],
+    toServe: [
+      "pasta or rice",
+      "parmesan or mature cheddar",
+      "broccoli or tenderstem"
+    ],
     method: [
       "blend fresh herbs with passata and stock cube",
       "fry diced celery, carrot, onion, crushed garlic",
@@ -308,11 +316,11 @@ export const recipes = [
     ingredients: [
       "1 banana",
       "handful spinach leaves",
-      "1 scoop oats (approx. 2 tbsp)",
+      "2 tbsp oats (optional)",
       "1 heaped tbsp natural yoghurt",
       "125ml apple juice",
-      "1 tbsp fresh lime juice",
-      "handful frozen fruit (berries, grapes, mango, pineapple)"
+      "dash fresh citrus juice (lemon or lime)",
+      "handful frozen fruit (berries, grapes or mango, pineapple)"
     ],
     method: ["add all ingredients to blender", "blend until smooth"],
     makes: "350ml"
@@ -479,7 +487,6 @@ export const recipes = [
       "fresh thyme",
       "75g golden breadcrumbs"
     ],
-    // toServe: ["samphire"],
     method: [
       "boil pasta for 3 minutes, add cauliflower for 7 minutes",
       "drain, reserving 150ml cooking water",
@@ -496,21 +503,23 @@ export const recipes = [
     id: "flapjacks",
     title: "flapjacks",
     ingredients: [
-      "150g butter",
-      "100g golden syrup",
+      "140g butter",
+      "90g golden syrup",
       "50g brown sugar (light or dark)",
-      "250g oats",
-      "50g dried apricots",
+      "200g oats",
+      "pinch salt",
+      "100g dried apricots",
       "50g dried blueberries",
       "50g dried cranberries"
     ],
     method: [
       "preheat oven to 150" + degreesCelcius,
       "melt butter with golden syrup and sugar",
-      "mix oats together with finely chopped fruit",
-      "pour in the melted butter mix and stir thoroughly",
-      "transfer to cover base of non-stick loaf tin",
-      "bake for 15 minutes",
+      "mix oats together with finely chopped fruit, salt",
+      "pour in melted butter mix, stir thoroughly",
+      "transfer to non-stick loaf tin",
+      "flatten mixture to cover base",
+      "bake for 15-20 minutes (depending how gooey you desire, it will solidify overnight somewhat)",
       "leave to cool before cutting into suitably-sized chunks"
     ],
     makes: "over 12 chunks"
@@ -589,7 +598,7 @@ export const recipes = [
       "150g unsalted butter (softened)",
       "700g diced Bramley apple (approx. 7 small)",
       "350ml water",
-      "100g demerera sugar",
+      "110g demerera sugar",
       "350g bag frozen raspberries",
       "150g punnet fresh blackberries",
       "1 tbsp ground cinnamon"
@@ -609,7 +618,6 @@ export const recipes = [
     makes: "8 portions"
   },
   {
-    id: "jambalaya",
     title: "jambalaya",
     ingredients: [
       "1 white onion",
@@ -626,20 +634,19 @@ export const recipes = [
       "1 tbsp dried oregano",
       "1 tsp ground black pepper",
       "1 tsp salt",
-      "400g long grain rice",
-      "400g can kidney beans (drained)"
+      "400g long grain rice"
     ],
-    toServe: ["feta", "rocket"],
+    toServe: ["mature cheddar"],
     method: [
       "remove chorizo skin, cut into edible chunks",
       "trasnfer all ingredients to slow cooker apart from rice, kidney beans",
       "cook on low for 3-4 hours",
-      "add rice, kidney beans",
+      "add rice",
       "cook on high for 20 minutes",
       "stir, cook for final 20 minutes"
     ],
     makes: "6 portions",
-    hide: true
+    hide: false
   },
   {
     id: "quiche",

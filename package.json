@@ -1,6 +1,6 @@
 {
-  "homepage": "https://adamjohncodrington.github.io/website",
-  "name": "website",
+  "homepage": "https://adamjohncodrington.github.io/recipes",
+  "name": "recipes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

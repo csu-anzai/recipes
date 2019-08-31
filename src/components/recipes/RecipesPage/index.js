@@ -10,7 +10,7 @@ import { recipes } from "../../../resources/data.js";
 const Recipes = () => {
   return (
     <div className="Recipes">
-      <HomeButton />
+      {/* <HomeButton /> */}
 
       <h2>recipes</h2>
 
