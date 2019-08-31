@@ -539,7 +539,7 @@ export const recipes = [
       "0.5 tsp ground black pepper",
       "25g bag fresh basil",
       "25g bag fresh parsley",
-      "2x 400g can chopped tomatoes (2 regular cans)",
+      "800g (2 cans) chopped tomatoes",
       "140g can tomato " + puree,
       "100ml chicken stock (1 cube)",
       "10 lasagne sheets",
@@ -547,27 +547,22 @@ export const recipes = [
       "2 eggs",
       "75ml milk",
       "pinch ground nutmeg, freshly ground rock salt and black pepper",
-      "150g mozzarella",
+      "150g fresh mozzarella (grated)",
       "50g parmesan"
     ],
-    toServe: [
-      "additional fresh parsley",
-      "spinach",
-      "cucumber",
-      "fresh tomatoes"
-    ],
+    toServe: ["spinach", "cucumber", "fresh tomatoes"],
     method: [
-      "fry meat with diced onions, red pepper and garlic until brown",
-      "add dried herbs, tomato " + puree,
-      "blend fresh herbs and add",
-      "add tomato " + puree + ", chopped tomatoes, chicken stock",
-      "reduce heat and simmer for 2 hours, stirring intermittently",
+      "fry mince with diced onions, red pepper, garlic until brown",
+      "add dried herbs, blended fresh herbs, tomato " + puree,
+      "add chopped tomatoes, chicken stock",
+      "reduce heat, simmer for 2 hours, stirring intermittently",
       "soak lasagne sheets in water for 30 minutes",
+      "freeze mozarella for 15 minutes, grate",
       "mix ricotta with eggs, milk, grated mozzarella, nutmeg, salt and pepper",
       "spoon a third of the meat mix into oven dish and cover with lasagne sheets",
       "layer a third of the ricotta mix",
-      "repeat previous 2 steps twice, finish with parmesan",
-      "bake for 20 minutes covered with foil and 20 further minutes without"
+      "repeat previous 2 steps twice, finish with parmesan topping",
+      "bake for 20 minutes covered with foil, then 20 final minutes without"
     ],
     makes: "6 portions"
   },
@@ -639,7 +634,7 @@ export const recipes = [
     toServe: ["mature cheddar"],
     method: [
       "remove chorizo skin, cut into edible chunks",
-      "trasnfer all ingredients to slow cooker apart from rice, kidney beans",
+      "transfer all ingredients to slow cooker apart from rice",
       "cook on low for 3-4 hours",
       "add rice",
       "cook on high for 20 minutes",
@@ -719,7 +714,7 @@ export const recipes = [
       "1 tsp ground black pepper",
       "3 tbsp Worcester sauce",
       "2 tbsp tomato " + puree,
-      "1 tbsp mint sauce (optional)",
+      "1-2 tbsp mint sauce (optional)",
       "500ml chicken stock (1 cube)",
       "2 tbsp plain flour",
       "250g petit pois",
@@ -732,16 +727,16 @@ export const recipes = [
     ],
     method: [
       "fry diced onion, carrot, swede, garlic",
-      "add mince once veg softens",
+      "(once softened) add mince",
       "season with fresh/dried herbs, salt, pepper",
       "add Worcester sauce, tomato " + puree + " (+ mint sauce)",
-      "let mince brown, then add stock, flour",
+      "(once brown) add stock, flour",
       "reduce heat and cover for 1-2 hours or transfer to slow cooker and cook on low for 3-4 hours",
       "peel, boil potatoes",
       "preheat oven to 180" + degreesCelcius,
       "mash potatoes",
       "loosen/season potato with milk, butter, salt, pepper",
-      "mix cheese, breadcrumbs, mixed herbs topping",
+      "mix cheese, breadcrumbs, mixed herbs to make topping",
       "stir petit pois into mince filling",
       "spoon mince filling into oven dish, cover with potato and topping",
       "bake for 50 minutes"
@@ -751,30 +746,26 @@ export const recipes = [
   {
     title: "sweet and sour chicken",
     ingredients: [
-      "350g jasmine rice",
       "300ml pineapple juice (2 tbsp for slurry, rest for sauce base)",
-      "2 tbsp rice vinegar or white wine vinegar",
+      "2 tbsp vinegar (rice or white wine)",
       "2 or 3 tbsp ketchup",
       "2 or 3 tbsp light brown sugar",
-      "3 or 4 tbsp soy sauce (light or dark) (1 or 2 for sauce, 2 for egg fried rice)",
+      "1 or 2 tbsp soy sauce (light or dark)",
       "1 tsp dried crushed chillis",
       "75g cornflour (1 tbsp for slurry, 65g for chicken coating)",
       "2 chicken breasts",
       "1 tsp salt",
-      "1 tbsp veg oil (for chicken coating, more required for rice, stir-fry)",
-      "5 eggs (1 for chicken coating, 4 for egg fried rice)",
+      "1 tbsp veg oil",
+      "1 egg",
       "1 onion",
       "2 peppers (1 red, 1 green)",
       "3 garlic cloves",
       "25g fresh ginger (peeled, grated)",
       "1 bunch spring onions",
       "0.5 small pineapple"
-      // "1 carrot (optional)",
     ],
-    toServe: ["cucumber sticks", "rice crackers"],
+    toServe: ["cucumber sticks", "egg-fried rice", "rice crackers"],
     method: [
-      "cook rice as per pack instructions",
-      "drain rice, rinse in cold water, chill until cold",
       "marinade diced chicken in oil, salt for 20 minutes",
       "make slurry from cornflour, pineapple juice",
       "bring vinegar, ketchup, soy, sugar, crushed chillis, pineapple juice to boil",
@@ -785,10 +776,30 @@ export const recipes = [
       "set chicken aside",
       "fry onions, peppers, garlic, ginger",
       "(once veg softened) add chicken, pineapple, simmer for 5 minutes",
-      "elsewhere, fry/swirl whisked eggs for 1-2 minutes",
-      "add cold rice to eggs, stir-fry for 2 minutes",
-      "add soy sauce to rice, stir-fry for 2 final minutes, set aside",
       "add cornflour slurry to chicken wok, cook for 1 minute until thick, glossy"
+    ],
+    makes: "4 portions"
+  },
+  {
+    title: "egg fried rice",
+    ingredients: [
+      "300g jasmine rice",
+      "2 tbsp olive oil",
+      "2 tbsp soy sauce (light or dark)",
+      "4 large eggs",
+      "200g frozen mixed veg (thawed)",
+      "1 small red onion (diced)"
+    ],
+    method: [
+      "cook rice as per pack instructions",
+      "drain rice, leave to cool, chill overnight",
+      "heat 0.5 tbsp oil on high heat",
+      "fry 3 beaten eggs for 1 minute, set aside",
+      "fry onion in 1.5 tbsp oil for 2 minutes",
+      "add thawed mixed veg, fry for 1 minute",
+      "add rice to eggs, stir-fry for 2-3 minutes (until rice cooked through)",
+      "pour over 1 beaten egg, stir-fry for 1 minute",
+      "add soy sauce, scrambled egg, stir-fry for 1-2 final minutes"
     ],
     makes: "4 portions"
   }
