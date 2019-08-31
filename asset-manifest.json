@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/recipes/static/css/main.fae6a09b.chunk.css",
+    "main.css": "/recipes/static/css/main.0d4c2f8f.chunk.css",
     "main.js": "/recipes/static/js/main.81541e1d.chunk.js",
     "main.js.map": "/recipes/static/js/main.81541e1d.chunk.js.map",
     "runtime~main.js": "/recipes/static/js/runtime~main.19e64e71.js",
@@ -9,10 +9,10 @@
     "static/js/2.bc112a38.chunk.js": "/recipes/static/js/2.bc112a38.chunk.js",
     "static/js/2.bc112a38.chunk.js.map": "/recipes/static/js/2.bc112a38.chunk.js.map",
     "index.html": "/recipes/index.html",
-    "precache-manifest.1b8761e887d5d1bbb1c92a4360eddde9.js": "/recipes/precache-manifest.1b8761e887d5d1bbb1c92a4360eddde9.js",
+    "precache-manifest.e0704210f2adec8dc74f6329e801b402.js": "/recipes/precache-manifest.e0704210f2adec8dc74f6329e801b402.js",
     "service-worker.js": "/recipes/service-worker.js",
     "static/css/2.14686bf5.chunk.css.map": "/recipes/static/css/2.14686bf5.chunk.css.map",
-    "static/css/main.fae6a09b.chunk.css.map": "/recipes/static/css/main.fae6a09b.chunk.css.map",
+    "static/css/main.0d4c2f8f.chunk.css.map": "/recipes/static/css/main.0d4c2f8f.chunk.css.map",
     "static/media/ALT_crumble.jpg": "/recipes/static/media/ALT_crumble.e35daed0.jpg",
     "static/media/ALT_pancakes.jpg": "/recipes/static/media/ALT_pancakes.a6b93179.jpg",
     "static/media/annie_lennox_i_put_a_spell_on_you.mp4": "/recipes/static/media/annie_lennox_i_put_a_spell_on_you.1bb045ba.mp4",
