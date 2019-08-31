@@ -9,15 +9,16 @@ import HomePage from "./components/home/HomePage";
 
 const App = () => {
   return (
-    <Router>
-      <Switch>
-        <Route path="/recipes" component={RecipesPage} />
-        <Route path="/pole" component={PolePage} />
-        <Route path="/vinyls" component={VinylsPage} />
-        <Route path="/gigs" component={GigsPage} />
-        <Route component={HomePage} />
-      </Switch>
-    </Router>
+    <RecipesPage />
+    // <Router>
+    //   <Switch>
+    //     <Route path="/recipes" component={RecipesPage} />
+    //     <Route path="/pole" component={PolePage} />
+    //     <Route path="/vinyls" component={VinylsPage} />
+    //     <Route path="/gigs" component={GigsPage} />
+    //     <Route component={HomePage} />
+    //   </Switch>
+    // </Router>
   );
 };
 
