@@ -468,7 +468,7 @@ export const recipes = [
   {
     title: "mac and cheese",
     ingredients: [
-      "500g conchigle pasta",
+      "500g pasta (macaroni, conchigle)",
       "1 large cauliflower or 2 small",
       "1L milk",
       "100g plain flour",
@@ -680,7 +680,8 @@ export const recipes = [
       "combine all cooled ingredients to form filling",
       "pour filling all over pastry",
       "bake for 45 minutes (or until filling is set)"
-    ]
+    ],
+    makes: "6 good slices"
   },
   {
     id: "porridge",
@@ -744,50 +745,53 @@ export const recipes = [
     makes: "8 portions"
   },
   {
-    title: "sweet and sour chicken",
+    id: "sweet_and_sour",
+    title: "sweet and sour",
     ingredients: [
       "300ml pineapple juice (2 tbsp for slurry, rest for sauce base)",
       "2 tbsp vinegar (rice or white wine)",
-      "2 or 3 tbsp ketchup",
-      "2 or 3 tbsp light brown sugar",
-      "1 or 2 tbsp soy sauce (light or dark)",
+      "2 tbsp ketchup",
+      "2 tbsp light brown sugar",
+      "2 tbsp soy sauce (light or dark)",
       "1 tsp dried crushed chillis",
       "75g cornflour (1 tbsp for slurry, 65g for chicken coating)",
-      "2 chicken breasts",
+      "2 chicken breasts or 1 small cauliflower",
       "1 tsp salt",
-      "1 tbsp veg oil",
+      "0.5 tsp ground black pepper",
+      "1 tbsp veg oil (for marinade, + extra for stir-frying veg)",
       "1 egg",
-      "1 onion",
-      "2 peppers (1 red, 1 green)",
+      "1 white onion",
+      "1 bunch spring onions",
+      "2 peppers (red and green)",
       "3 garlic cloves",
       "25g fresh ginger (peeled, grated)",
-      "1 bunch spring onions",
-      "0.5 small pineapple"
+      "200g pineapple"
     ],
-    toServe: ["cucumber sticks", "egg-fried rice", "rice crackers"],
+    toServe: ["egg fried rice", "rice crackers"],
     method: [
-      "marinade diced chicken in oil, salt for 20 minutes",
+      "marinade diced chicken or cauliflower in oil, salt, pepper for 20 minutes",
       "make slurry from cornflour, pineapple juice",
       "bring vinegar, ketchup, soy, sugar, crushed chillis, pineapple juice to boil",
       "remove sauce from heat, leave to cool",
-      "add beaten egg to marinaded chicken, stir",
-      "add cornflour to chicken, stir until unevenly coated",
-      "fry coated chicken on high heat for 5-6 minutes, flipping half way through",
-      "set chicken aside",
-      "fry onions, peppers, garlic, ginger",
-      "(once veg softened) add chicken, pineapple, simmer for 5 minutes",
-      "add cornflour slurry to chicken wok, cook for 1 minute until thick, glossy"
+      "add beaten egg to marinaded chicken or cauliflower, stir",
+      "add cornflour to chicken or cauliflower, stir until unevenly coated",
+      "fry coated chicken or cauliflower on medium-high, turning regularly (approx. 6 minutes for chicken, less for cauliflower)",
+      "set chicken or cauliflower aside",
+      "fry chunky onions, peppers, garlic, ginger",
+      "(once veg slightly softened) add fried chicken or cauliflower, pineapple, sauce, simmer for 5 minutes",
+      "add cornflour slurry to wok, cook for 1 minute until thick, glossy"
     ],
     makes: "4 portions"
   },
   {
+    id: "egg_fried_rice",
     title: "egg fried rice",
     ingredients: [
-      "300g jasmine rice",
+      "250g jasmine rice",
       "2 tbsp olive oil",
       "2 tbsp soy sauce (light or dark)",
       "4 large eggs",
-      "200g frozen mixed veg (thawed)",
+      "150g frozen mixed veg (thawed)",
       "1 small red onion (diced)"
     ],
     method: [
