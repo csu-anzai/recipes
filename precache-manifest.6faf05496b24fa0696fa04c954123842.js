@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5301a8e93037a2bc971275a1271c3794",
+    "revision": "944907dd2eb71fbfdd7f331d0d0a8daf",
     "url": "/recipes/index.html"
   },
   {
-    "revision": "8500a697eaaad96f4add",
+    "revision": "2342b8e4ddd977cb1a26",
     "url": "/recipes/static/css/2.14686bf5.chunk.css"
   },
   {
-    "revision": "cb4c865c9b25915ab6f0",
-    "url": "/recipes/static/css/main.0d4c2f8f.chunk.css"
+    "revision": "0c7ad26ef12e086c3553",
+    "url": "/recipes/static/css/main.f9250bbd.chunk.css"
   },
   {
-    "revision": "8500a697eaaad96f4add",
-    "url": "/recipes/static/js/2.bc112a38.chunk.js"
+    "revision": "2342b8e4ddd977cb1a26",
+    "url": "/recipes/static/js/2.e5fa508f.chunk.js"
   },
   {
-    "revision": "cb4c865c9b25915ab6f0",
-    "url": "/recipes/static/js/main.81541e1d.chunk.js"
+    "revision": "0c7ad26ef12e086c3553",
+    "url": "/recipes/static/js/main.37b80455.chunk.js"
   },
   {
     "revision": "c96e90947479d05374fe",
@@ -28,8 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/recipes/static/media/ALT_crumble.e35daed0.jpg"
   },
   {
+    "revision": "b6b840d7f9508c82b7fc3280a7782eaa",
+    "url": "/recipes/static/media/ALT_egg_fried_rice.b6b840d7.jpg"
+  },
+  {
     "revision": "a6b9317944b2de79245e80d7378e27a1",
     "url": "/recipes/static/media/ALT_pancakes.a6b93179.jpg"
+  },
+  {
+    "revision": "b127e01dbc1cc4540d9a0ba9796848e0",
+    "url": "/recipes/static/media/ALT_sweet_and_sour.b127e01d.jpg"
   },
   {
     "revision": "1bb045babb13c3b3c07c241e07bd8f63",
@@ -66,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5a9e0d4cddc47541c317f7a722dc82d6",
     "url": "/recipes/static/media/cumberland_pie.5a9e0d4c.jpg"
+  },
+  {
+    "revision": "e19a679c9e9bcde5718e0f9ea23f07b9",
+    "url": "/recipes/static/media/egg_fried_rice.e19a679c.jpg"
   },
   {
     "revision": "0d5f26e16ffd53a9be8948e8d78dccd2",
@@ -138,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faa368105947eccf07aa1542cd4314ab",
     "url": "/recipes/static/media/smoothie.faa36810.jpg"
+  },
+  {
+    "revision": "2d4e5a95ad374074c6bdde547d113a15",
+    "url": "/recipes/static/media/sweet_and_sour.2d4e5a95.jpg"
   },
   {
     "revision": "c31f8eac88a79ab094d87a74e9b7287b",
